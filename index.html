@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cursuri SRIM — Prezentări</title>
+    <style>
+      :root {
+        --green: #6ebe46;
+        --green-dark: #2b7722;
+        --blue: #104b86;
+        --blue-alt: #104c87;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        background: linear-gradient(
+          165deg,
+          #1e6099 0%,
+          var(--blue-alt) 22%,
+          var(--blue) 45%,
+          #0a2742 72%,
+          #061b2e 100%
+        );
+        color: #e8f0f8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1.25rem 3rem;
+      }
+      .wrap {
+        width: 100%;
+        max-width: 36rem;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      header img {
+        max-width: min(100%, 320px);
+        height: auto;
+        display: block;
+        margin: 0 auto 1.25rem;
+      }
+      h1 {
+        font-size: 1.35rem;
+        font-weight: 700;
+        margin: 0 0 0.35rem;
+        letter-spacing: 0.02em;
+      }
+      .sub {
+        font-size: 0.95rem;
+        opacity: 0.88;
+        line-height: 1.45;
+        margin: 0;
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.65rem;
+      }
+      a.module {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.9rem 1.1rem;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        border-radius: 10px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.15s, border-color 0.15s, transform 0.1s;
+      }
+      a.module:hover {
+        background: rgba(110, 190, 70, 0.18);
+        border-color: rgba(110, 190, 70, 0.45);
+      }
+      a.module:active {
+        transform: scale(0.99);
+      }
+      a.module .code {
+        font-size: 0.8rem;
+        font-weight: 800;
+        color: var(--green);
+        letter-spacing: 0.06em;
+      }
+      a.module .title {
+        flex: 1;
+        text-align: left;
+        font-size: 0.95rem;
+      }
+      a.module .arrow {
+        opacity: 0.65;
+        font-size: 1.1rem;
+      }
+      footer {
+        margin-top: 2.5rem;
+        text-align: center;
+        font-size: 0.8rem;
+        opacity: 0.65;
+        line-height: 1.5;
+      }
+      footer a {
+        color: var(--green);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <img
+          src="https://www.srimed.ro/wp-content/uploads/2025/08/RO_Official_Logo_SRIMED-02-2048x512.png"
+          alt="Societatea Română de Informatică Medicală"
+          width="2048"
+          height="512"
+          decoding="async"
+        />
+        <h1>Prezentări reveal.js</h1>
+        <p class="sub">
+          Alege modulul. Deschide în browser prin server local (ex. AMPPS) pentru încărcare
+          corectă a fișierelor Markdown.
+        </p>
+      </header>
+      <nav aria-label="Module curs">
+        <a class="module" href="m0/">
+          <span class="code">M0</span>
+          <span class="title">Cadrul românesc — competențe sănătate digitală și date</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="module" href="m1/">
+          <span class="code">M1</span>
+          <span class="title">Transformarea digitală a sănătății (șablon)</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+      <footer>
+        <p>
+          Adăugă aici linkuri noi când creezi foldere <code>m2/</code>, <code>m3/</code>, …
+        </p>
+        <p>
+          <a href="https://github.com/stefaniga/srimed-courses">Repository GitHub</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

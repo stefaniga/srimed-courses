@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# Extras din PDF (regenerabil cu script); păstrează repo-ul ușor
+m0/_source_pdf_extract.txt
