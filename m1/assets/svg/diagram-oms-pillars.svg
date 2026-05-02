@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="t2">
+  <title id="t2">Patru piloni OMS</title>
+  <rect x="4" y="4" width="632" height="352" rx="10" fill="rgba(6,27,46,0.45)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="320" y="36" text-anchor="middle" fill="#b8d4f0" font-family="system-ui,sans-serif" font-size="12" font-weight="600" letter-spacing="0.05em">OMS &#8212; PATRU PILONI INSTITU&#538;IONALI (2020&#8211;2025)</text>
+  <g font-family="system-ui,sans-serif">
+    <rect x="32" y="58" width="268" height="130" rx="8" fill="#104b86" stroke="#6ebe46" stroke-width="1.2"/>
+    <text x="166" y="88" text-anchor="middle" fill="#6ebe46" font-size="11.5" font-weight="700">1 &#183; GUVERNAN&#538;&#260; &#536;I POLITIC&#258;</text>
+    <text x="166" y="118" text-anchor="middle" fill="#ddeaf7" font-size="10">Reglementare, securitate, interoperabilitate</text>
+    <rect x="340" y="58" width="268" height="130" rx="8" fill="#104b86" stroke="#6ebe46" stroke-width="1.2"/>
+    <text x="474" y="88" text-anchor="middle" fill="#6ebe46" font-size="11.5" font-weight="700">2 &#183; COLABORARE</text>
+    <text x="474" y="118" text-anchor="middle" fill="#ddeaf7" font-size="10">S&#259;n&#259;tate, tehnologie, societate civil&#259;</text>
+    <rect x="32" y="208" width="268" height="130" rx="8" fill="#104b86" stroke="#6ebe46" stroke-width="1.2"/>
+    <text x="166" y="238" text-anchor="middle" fill="#6ebe46" font-size="11.5" font-weight="700">3 &#183; INFRASTRUCTUR&#258;</text>
+    <text x="166" y="268" text-anchor="middle" fill="#ddeaf7" font-size="10">Servicii centrate pe persoan&#259;</text>
+    <rect x="340" y="208" width="268" height="130" rx="8" fill="#104b86" stroke="#6ebe46" stroke-width="1.2"/>
+    <text x="474" y="238" text-anchor="middle" fill="#6ebe46" font-size="11.5" font-weight="700">4 &#183; CAPACITATE INSTITU&#538;IONAL&#258;</text>
+    <text x="474" y="268" text-anchor="middle" fill="#ddeaf7" font-size="10">Capital uman, competen&#539;e, analiza datelor</text>
+  </g>
+</svg>

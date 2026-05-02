@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" role="img" aria-labelledby="t1">
+  <title id="t1">Convergen&#539;&#259; curriculum: ODD, OMS, UE EHDS</title>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#104b86"/>
+      <stop offset="100%" style="stop-color:#1e6099"/>
+    </linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.35"/></filter>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#6ebe46"/></marker>
+  </defs>
+  <rect x="8" y="8" width="904" height="264" rx="10" fill="rgba(6,27,46,0.5)" stroke="rgba(110,190,70,0.35)" stroke-width="1"/>
+  <text x="460" y="38" text-anchor="middle" fill="#b8d4f0" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.06em">CADRE DE REFERIN&#538;&#260; &#8212; CONVERGIN&#538;&#260; CURRICULAR&#260;</text>
+  <g filter="url(#sh)">
+    <rect x="48" y="70" width="200" height="100" rx="8" fill="url(#g1)" stroke="#6ebe46" stroke-width="1.5"/>
+    <text x="148" y="118" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="19" font-weight="600">ODD</text>
+    <text x="148" y="142" text-anchor="middle" fill="#c8e6ff" font-family="system-ui,sans-serif" font-size="10.5">Agenda 2030, date pentru decizie</text>
+  </g>
+  <g filter="url(#sh)">
+    <rect x="360" y="70" width="200" height="100" rx="8" fill="url(#g1)" stroke="#6ebe46" stroke-width="1.5"/>
+    <text x="460" y="118" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="19" font-weight="600">OMS</text>
+    <text x="460" y="142" text-anchor="middle" fill="#c8e6ff" font-family="system-ui,sans-serif" font-size="10.5">Strategia s&#259;n&#259;t&#259;&#539;ii digitale</text>
+  </g>
+  <g filter="url(#sh)">
+    <rect x="672" y="70" width="200" height="100" rx="8" fill="url(#g1)" stroke="#6ebe46" stroke-width="1.5"/>
+    <text x="772" y="115" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="17" font-weight="600">UE &#183; EHDS</text>
+    <text x="772" y="138" text-anchor="middle" fill="#c8e6ff" font-family="system-ui,sans-serif" font-size="10">Reg. (UE) 2025/327</text>
+  </g>
+  <path d="M 248 120 L 348 120" stroke="#6ebe46" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <path d="M 560 120 L 662 120" stroke="#6ebe46" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <rect x="300" y="195" width="320" height="56" rx="6" fill="rgba(110,190,70,0.18)" stroke="rgba(110,190,70,0.6)" stroke-width="1.2"/>
+  <text x="460" y="228" text-anchor="middle" fill="#e8f4ff" font-family="system-ui,sans-serif" font-size="12.5" font-weight="600">Competen&#539;e digitale &#238;n s&#259;n&#259;tate &#8212; Rom&#226;nia</text>
+</svg>

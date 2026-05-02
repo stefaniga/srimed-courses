@@ -5,10 +5,21 @@
 
 <div class="m0-cover__bar"></div>
 
-Conținut conform materialelor din platforma de e-learning SRIM.
+Conținut conform **materialelor curriculare** publicate în **platforma de e-learning SRIM** (Societatea Română de Informatică Medicală).
 
 Note:
-Conținut conform materialelor din platforma de e-learning SRIM.
+Conținut aliniat materialelor oficiale SRIM pentru M0.
+
+---
+
+<!-- .slide: class="left m0-slide" -->
+## Conformitate și autoritate documentară
+
+Această prezentare **sintetizează** informațiile din **documentele curriculare** și din **platforma de e-learning SRIM**, pentru uz didactic.
+
+**În caz de neconcordanță** între această prezentare și **documentele oficiale** ale curriculumului sau **versiunile actualizate** din platformă, **prevală documentul sursă** publicat de titularii de conținut și de SRIM.
+
+Respectarea **proprietății intelectuale** și a **politicilor** platformei este obligatorie în activitățile de formare.
 
 ---
 
@@ -22,7 +33,7 @@ Curriculumul Național de Competențe Digitale în Sănătate din România a fos
 <!-- .slide: class="left m0-slide" -->
 ## Introducere (2/2) — UOC și profiluri
 
-Cadrul de învățare mapează **cele nouă module curriculare**, dezvoltate de **Universitat Oberta de Catalunya (UOC), Spania** — **Centru colaborator al Organizației Mondiale a Sănătății** în domeniul sănătății digitale — pentru **patru profiluri profesionale** din **Cadrul de Competențe în Sănătate Digitală din România**:
+Cadrul de învățare corelează **cele nouă module curriculare**, dezvoltate de **Universitat Oberta de Catalunya (UOC), Spania** — denumire oficială a instituției; **Centru colaborator al Organizației Mondiale a Sănătății** în domeniul sănătății digitale — pentru **patru profiluri profesionale** din **Cadrul de Competențe în Sănătate Digitală din România**:
 
 **P1** asistență medicală directă · **P2** asistență medicală indirectă · **P3** digitalizare în sănătate, IT și inovație · **P4** administrație și management
 
@@ -64,7 +75,7 @@ Livrare **flexibilă**, adaptată diversității contextelor instituționale și
 <div class="m0-slideshow__slide"><img src="assets/gallery/05.jpg" alt="Ilustrație 5 — ecosistem digital sănătate" width="1600" height="900" loading="lazy" decoding="async" /></div>
 </div>
 
-<p class="m0-slideshow__hint">Diapozitive cu alternanță automată · continuare: tastă sau săgeată</p>
+<p class="m0-slideshow__hint">Secvență ilustrativă cu schimbare automată a cadrelor. Navigare între diapozitive: utilizați comenzile din vizualizor.</p>
 
 ---
 
@@ -563,14 +574,14 @@ Dezvoltarea capacității ar trebui, în cele din urmă, să fie **integrată ș
 
 Aceste module constituie **Curriculumul Național de Competențe Digitale în Sănătate din România**, elaborat la solicitarea **Biroului Regional pentru Europa al Organizației Mondiale a Sănătății**.
 
-Acesta oferă un cadru curricular care mapează **nouă module** pe cele patru profiluri profesionale definite în **Cadrul de Competențe în Sănătate Digitală și Date din România v2** și stabilește o foaie de parcurs pe termen mediu pentru dezvoltarea forței de muncă **dincolo de ciclul inițial de formare**.
+Acesta oferă un cadru curricular care **raportează cele nouă module** la cele patru profiluri profesionale definite în **Cadrul de Competențe în Sănătate Digitală și Date din România v2** și stabilește o foaie de parcurs pe termen mediu pentru dezvoltarea forței de muncă **dincolo de ciclul inițial de formare**.
 
 ---
 
 <!-- .slide: class="left m0-slide" -->
 ## Concluzii (2/3)
 
-Curriculumul acoperă cele **nouă arii de competență** ale cadrului, de la managementul datelor și comunicarea digitală până la siguranță, rezolvarea problemelor și transformare digitală, prin module dezvoltate de **Universitat Oberta de Catalunya (UOC)**, Centru colaborator al Organizației Mondiale a Sănătății în domeniul sănătății digitale.
+Curriculumul acoperă cele **nouă arii de competență** ale cadrului, de la managementul datelor și comunicarea digitală până la siguranță, rezolvarea problemelor și transformare digitală, prin module dezvoltate de **Universitat Oberta de Catalunya (UOC)**, Spania — Centru colaborator al Organizației Mondiale a Sănătății în domeniul sănătății digitale.
 
 Toate modulele vizează niveluri de competență **de bază și intermediar** și sunt concepute pentru **întreaga forță de muncă** din domeniul sănătății, pentru profilurile **P1–P4**, cu durate estimate de învățare între **două și șase ore** per modul și modalități flexibile de livrare, adaptate diversității contextelor instituționale.
 
@@ -592,6 +603,6 @@ Cele nouă module reprezintă un **fundament, nu un punct final**. Foaia de parc
 <!-- .slide: class="left m0-slide" -->
 ## Următorul pas
 
-Continuă cu **Modulul 1** — conținutul tematic al curriculumului.
+Continuare recomandată: **Modulul 1** — transformarea digitală a sănătății și a sistemului de sănătate în România (conținut tematic al curriculumului).
 
-**`?`** — scurtături · **`S`** — speaker view
+Navigare între module: utilizați legăturile din **antetul** prezentării (*Start*, *M0*, *M1*).

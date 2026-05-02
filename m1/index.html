@@ -3,89 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modulul 1 — Curs</title>
+    <title>M1 — Transformarea digitală a sănătății și a sistemului de sănătate în România</title>
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@5.1.0/dist/reveal.css" />
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@5.1.0/dist/theme/black.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/m1-enhancements.css" />
   </head>
   <body>
     <div class="reveal">
-      <div class="course-brand" aria-hidden="true">
-        <img
-          src="https://www.srimed.ro/wp-content/uploads/2025/08/RO_Official_Logo_SRIMED-02-2048x512.png"
-          alt="Societatea Română de Informatică Medicală"
-          width="2048"
-          height="512"
-          decoding="async"
-        />
-        <span class="course-brand__label">Modulul 1</span>
-      </div>
+      <header class="course-topbar">
+        <div class="course-brand">
+          <img
+            src="https://www.srimed.ro/wp-content/uploads/2025/08/RO_Official_Logo_SRIMED-02-2048x512.png"
+            alt="Societatea Română de Informatică Medicală"
+            width="2048"
+            height="512"
+            decoding="async"
+          />
+          <span class="course-brand__label">Modulul 1</span>
+        </div>
+        <nav class="course-nav" aria-label="Navigare între module">
+          <a href="../index.html">Start</a>
+          <a href="../m0/">M0</a>
+          <span class="course-nav__current" aria-current="page">M1</span>
+        </nav>
+      </header>
       <div class="slides">
-        <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-          <textarea data-template>
-## Modulul 1
-
-Introducere în curs
-
-Note:
-Bun venit — poți folosi speaker view cu `S`.
-          </textarea>
-        </section>
-        <section data-markdown>
-          <textarea data-template>
-## Obiective (modulul 1)
-
-- Înțelegerea contextului și scopului modulului
-- Familiarizare cu materialele și structura cursului
-- Pregătire pentru modulele următoare
-          </textarea>
-        </section>
-        <section data-markdown>
-          <textarea data-template>
-## Agenda
-
-1. Prezentare generală
-2. Concepte cheie
-3. Exemple practice
-4. Întrebări
-          </textarea>
-        </section>
-        <section>
-          <section data-markdown>
-            <textarea data-template>
-## Slide vertical (sub-capitol)
-
-Apasă săgeata **jos** pentru detalii.
-            </textarea>
-          </section>
-          <section data-markdown>
-            <textarea data-template>
-### Detaliu
-
-Slide-uri verticale sunt utile pentru pași sau Q&amp;A.
-            </textarea>
-          </section>
-        </section>
-        <section data-markdown>
-          <textarea data-template>
-## Fragmente
-
-Pas cu pas:
-
-- Item unu <!-- .element: class="fragment" -->
-- Item doi <!-- .element: class="fragment" -->
-- Item trei <!-- .element: class="fragment" -->
-          </textarea>
-        </section>
-        <section data-markdown>
-          <textarea data-template>
-## Mulțumim
-
-**Modulul 1** — continuă cu exercițiile din materiale.
-
-`?` — scurtături tastatură în reveal.js
-          </textarea>
-        </section>
+        <section
+          data-markdown="slides.md"
+          data-separator="^\n---\n$"
+          data-separator-vertical="^\n--\n$"
+        ></section>
       </div>
     </div>
     <script src="https://unpkg.com/reveal.js@5.1.0/dist/reveal.js"></script>
@@ -96,12 +44,16 @@ Pas cu pas:
       Reveal.initialize({
         hash: true,
         slideNumber: "c/t",
-        transition: "slide",
+        transition: "convex",
+        backgroundTransition: "fade",
         width: 1280,
         height: 720,
         margin: 0.04,
         minScale: 0.15,
         maxScale: 2,
+        autoAnimate: true,
+        autoAnimateEasing: "ease-out",
+        autoAnimateDuration: 0.55,
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         markdown: {
           smartypants: true,

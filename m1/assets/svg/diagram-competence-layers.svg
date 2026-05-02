@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="t5">
+  <title id="t5">Straturi Layer 0-3</title>
+  <rect x="8" y="8" width="504" height="284" rx="10" fill="rgba(6,27,46,0.45)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="260" y="36" text-anchor="middle" fill="#b8d4f0" font-family="system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="0.05em">CADRU ROM&#194;NESC &#8212; STRATURI (V2)</text>
+  <g font-family="system-ui,sans-serif">
+    <rect x="48" y="52" width="424" height="48" rx="6" fill="rgba(80,80,90,0.5)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <text x="260" y="82" text-anchor="middle" fill="#ccc" font-size="11.5" font-weight="600">Layer 0 &#8212; predefinit DigComp (&#238;n afara curriculumului)</text>
+    <rect x="48" y="108" width="424" height="52" rx="6" fill="#104b86" stroke="#6ebe46" stroke-width="1"/>
+    <text x="260" y="132" text-anchor="middle" fill="#6ebe46" font-size="11.5" font-weight="700">Layer 1 &#8212; DigComp 3.0 (intrare)</text>
+    <text x="260" y="150" text-anchor="middle" fill="#ddeaf7" font-size="9.5">Date, comunicare, con&#539;inut, securitate, probleme</text>
+    <rect x="48" y="168" width="424" height="58" rx="6" fill="rgba(16,75,134,0.95)" stroke="#6ebe46" stroke-width="1.5"/>
+    <text x="260" y="194" text-anchor="middle" fill="#fff" font-size="11.5" font-weight="700">Layer 2 &#8212; Nucleu s&#259;n&#259;tate (9 domenii, 29 competen&#539;e)</text>
+    <text x="260" y="214" text-anchor="middle" fill="#c8e6ff" font-size="9.5">224 rezultate ale &#238;nv&#259;&#539;&#259;rii adaptate profesioni&#537;tilor</text>
+    <rect x="48" y="234" width="424" height="48" rx="6" fill="rgba(110,190,70,0.2)" stroke="#6ebe46" stroke-width="1"/>
+    <text x="260" y="264" text-anchor="middle" fill="#dff7e8" font-size="11.5" font-weight="600">Layer 3 &#8212; Leadership / guvernan&#539;&#259; (referin&#539;&#259;)</text>
+  </g>
+</svg>

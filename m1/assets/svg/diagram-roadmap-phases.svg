@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" role="img" aria-labelledby="t6">
+  <title id="t6">Faze agenda 2026-2031</title>
+  <rect x="4" y="4" width="892" height="152" rx="8" fill="rgba(6,27,46,0.5)" stroke="rgba(110,190,70,0.25)" stroke-width="1"/>
+  <text x="450" y="30" text-anchor="middle" fill="#b8d4f0" font-family="system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="0.05em">AGEND&#258; DIGITAL&#258; &#8212; FAZE 2026&#8211;2031</text>
+  <g font-family="system-ui,sans-serif">
+    <rect x="32" y="48" width="250" height="96" rx="8" fill="#104b86" stroke="#6ebe46" stroke-width="1.5"/>
+    <text x="157" y="78" text-anchor="middle" fill="#6ebe46" font-size="12.5" font-weight="700">Faza 1 &#183; Funda&#539;ii</text>
+    <text x="157" y="100" text-anchor="middle" fill="#fff" font-size="11">2026&#8211;2027</text>
+    <text x="157" y="122" text-anchor="middle" fill="#c8dff5" font-size="9.5">Securitate, date, interoperabilitate</text>
+    <path d="M 288 96 L 318 96" stroke="#6ebe46" stroke-width="3"/>
+    <polygon points="318,96 308,90 308,102" fill="#6ebe46"/>
+    <rect x="322" y="48" width="250" height="96" rx="8" fill="#104b86" stroke="#8ed56a" stroke-width="1.5"/>
+    <text x="447" y="78" text-anchor="middle" fill="#8ed56a" font-size="12.5" font-weight="700">Faza 2 &#183; Servicii</text>
+    <text x="447" y="100" text-anchor="middle" fill="#fff" font-size="11">2027&#8211;2029</text>
+    <text x="447" y="122" text-anchor="middle" fill="#c8dff5" font-size="9.5">Procese end-to-end, cet&#259;&#539;eni</text>
+    <path d="M 578 96 L 608 96" stroke="#6ebe46" stroke-width="3"/>
+    <polygon points="608,96 598,90 598,102" fill="#6ebe46"/>
+    <rect x="612" y="48" width="256" height="96" rx="8" fill="rgba(110,190,70,0.18)" stroke="#6ebe46" stroke-width="1.5"/>
+    <text x="740" y="78" text-anchor="middle" fill="#dff7e8" font-size="12.5" font-weight="700">Faza 3 &#183; Valoare</text>
+    <text x="740" y="100" text-anchor="middle" fill="#fff" font-size="11">2029&#8211;2031</text>
+    <text x="740" y="122" text-anchor="middle" fill="#c8f0d4" font-size="9.5">Analiz&#259;, IA, utilizare secundar&#259;</text>
+  </g>
+</svg>
