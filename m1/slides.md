@@ -30,23 +30,8 @@ Respectarea **proprietății intelectuale** și a **politicilor** platformei est
 
 ---
 
-<!-- .slide: class="left m1-slide" -->
-## Comunitatea de învățare (platformă)
-
-**Bine ai venit în comunitatea de învățare** a transformării digitale a sănătății și a sistemului de sănătate în România.
-
-Acest forum este un spațiu dedicat **întrebărilor**, **explorării**, **sprijinului reciproc** și **dezvoltării împreună**.
-
-<div class="m1-callout">
-
-*(Formulări reproduse din interfața cursului — materiale e-learning SRIM.)*
-
-</div>
-
----
-
 <!-- .slide: class="left m1-slide table-medium" -->
-## Fișă modul — rezumat
+## Prezentare modul
 
 <div class="m1-table-card">
 
@@ -58,19 +43,6 @@ Acest forum este un spațiu dedicat **întrebărilor**, **explorării**, **sprij
 | **Nivel competențe obiectiv** | De bază, intermediar |
 | **Timp estimat** | 3–6 ore |
 | **Livrare** | Asincron online, sincron online, în persoană, mixt |
-
-</div>
-
----
-
-<!-- .slide: class="left m1-slide" -->
-## Preocupări (competențe) — coduri din cadru
-
-**Secundare:** 3.1 Sisteme digitale clinice și de îngrijire · 3.2 Sisteme digitale operaționale și administrative · 4.1 Legislația privind datele medicale · 4.2 Standardele în materie de date privind sănătatea și interoperabilitatea · 5.1 Securitatea cibernetică și siguranța sistemului medical
-
-<div class="m1-callout">
-
-*(Formulări înrudite în materialul modulului pentru competențe secundare.)*
 
 </div>
 
