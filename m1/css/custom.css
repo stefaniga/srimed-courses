@@ -1,0 +1,135 @@
+/* SRIM — culori + layout (aliniat cu M0) */
+:root {
+  --srim-green: #6ebe46;
+  --srim-green-dark: #2b7722;
+  --srim-blue: #104b86;
+  --srim-blue-alt: #104c87;
+  --r-link-color: var(--srim-green);
+  --r-link-color-hover: #8ed56a;
+  --r-progress-color: var(--srim-green);
+  --r-selection-background-color: rgba(110, 190, 70, 0.35);
+  --r-background-color: transparent;
+  --r-main-font-size: 30px;
+  --slide-safe-top: 4rem;
+  --slide-safe-bottom: 3rem;
+}
+
+.reveal-viewport {
+  background: linear-gradient(
+    165deg,
+    #1e6099 0%,
+    var(--srim-blue-alt) 22%,
+    var(--srim-blue) 45%,
+    #0a2742 72%,
+    #061b2e 100%
+  );
+}
+
+.reveal {
+  background-color: transparent;
+}
+
+.reveal .progress span {
+  background: linear-gradient(90deg, var(--srim-green-dark), var(--srim-green));
+}
+
+.reveal .controls button {
+  color: var(--srim-green);
+}
+
+.reveal .controls button:hover {
+  color: #fff;
+}
+
+.reveal .slides section {
+  text-align: left;
+  padding: var(--slide-safe-top) 3.5% var(--slide-safe-bottom);
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.reveal .slides section > * {
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.reveal h1 {
+  font-size: 1.45em;
+  margin: 0 0 0.4em;
+  line-height: 1.2;
+}
+
+.reveal h2 {
+  font-size: 1.2em;
+  margin: 0 0 0.45em;
+  line-height: 1.25;
+  border-bottom: 2px solid var(--srim-blue);
+  padding-bottom: 0.3em;
+  box-shadow: 0 1px 0 0 rgba(110, 190, 70, 0.35);
+}
+
+.reveal h3 {
+  font-size: 1.05em;
+  margin: 0.5em 0 0.35em;
+  color: var(--srim-green);
+}
+
+.reveal p {
+  margin: 0.4em 0;
+  line-height: 1.38;
+}
+
+.reveal ul,
+.reveal ol {
+  margin: 0.35em 0;
+  line-height: 1.38;
+}
+
+.reveal li {
+  margin: 0.2em 0;
+}
+
+.reveal strong {
+  color: var(--srim-green);
+}
+
+.reveal .course-brand {
+  position: fixed;
+  top: 0.65rem;
+  left: 0.65rem;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  pointer-events: none;
+  max-width: min(92vw, 520px);
+}
+
+.reveal .course-brand img {
+  height: 2.35rem;
+  width: auto;
+  max-width: min(200px, 36vw);
+  display: block;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.reveal .course-brand__label {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--srim-green);
+  border-left: 3px solid var(--srim-blue);
+  padding-left: 0.55rem;
+  line-height: 1.2;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.reveal.has-dark-background .course-brand__label {
+  color: var(--srim-green);
+}
