@@ -242,16 +242,120 @@
 
 /* Tabele — fără animație pe intrare (stabilitate) */
 .reveal .slides section.table-heavy.present > *,
-.reveal .slides section.table-medium.present > * {
+.reveal .slides section.table-medium.present > *,
+.reveal .slides section.table-mega.present > * {
   animation: none;
 }
 
-/* Tabele — hover subtil pe rânduri (unde e loc) */
-.reveal .slides section.m0-slide table tbody tr {
-  transition: background 0.15s ease;
+/* Tabele — container „card”, antet, zebra */
+.reveal .slides section.m0-slide table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(110, 190, 70, 0.38);
+  box-shadow:
+    0 4px 22px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(255, 255, 255, 0.06) inset;
+  margin-top: 0.35em;
 }
-.reveal .slides section.m0-slide table tbody tr:hover {
-  background: rgba(110, 190, 70, 0.08);
+
+.reveal .slides section.m0-slide thead th {
+  padding: 0.42em 0.48em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.88em;
+  line-height: 1.25;
+  background: linear-gradient(
+    180deg,
+    rgba(30, 96, 153, 0.95) 0%,
+    rgba(10, 39, 66, 0.94) 100%
+  );
+  color: #dff7e8;
+  border: none;
+  border-bottom: 2px solid var(--srim-green);
+  text-align: left;
+}
+
+.reveal .slides section.m0-slide tbody td {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.reveal .slides section.m0-slide tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.reveal .slides section.m0-slide tbody tr:nth-child(odd) td {
+  background: rgba(0, 0, 0, 0.07);
+}
+
+.reveal .slides section.m0-slide tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Prima coloană numerică (Nr.) — antet aliniat ca rândurile de date (Tabel 1, mega) */
+.reveal .slides section.m0-slide.table-num-first thead th:first-child,
+.reveal .slides section.m0-slide.table-mega thead th:first-child {
+  text-align: center;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.reveal .slides section.m0-slide.table-mega tbody td:first-child,
+.reveal .slides section.m0-slide.table-num-first tbody td:first-child {
+  text-align: center;
+  font-weight: 700;
+  color: var(--srim-green);
+  white-space: nowrap;
+  width: 1%;
+}
+
+.reveal .slides section.m0-slide.table-mega tbody td:last-child {
+  color: rgba(230, 245, 255, 0.93);
+  font-size: 0.97em;
+  line-height: 1.35;
+}
+
+/* Coloana Link — domenii scurte */
+.reveal .slides section.m0-slide.table-link-col tbody td:last-child {
+  color: rgba(200, 235, 255, 0.95);
+  font-size: 0.94em;
+  font-family: ui-monospace, "Cascadia Code", monospace;
+  letter-spacing: 0.02em;
+}
+
+/* Linkuri în tabele — clicabile, vizibile peste fundal */
+.reveal .slides section.m0-slide table a {
+  color: #8ee9a8;
+  text-decoration: underline;
+  text-decoration-color: rgba(110, 190, 70, 0.55);
+  text-underline-offset: 0.14em;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.reveal .slides section.m0-slide table a:hover {
+  color: #c8f7d6;
+  text-decoration-color: var(--srim-green);
+}
+.reveal .slides section.m0-slide table a:focus-visible {
+  outline: 2px solid var(--srim-green);
+  outline-offset: 2px;
+}
+
+/* Tabel mega — antet puțin mai compact ca textul mărit să încapă pe slide */
+.reveal .slides section.m0-slide.table-mega thead th {
+  padding: 0.32em 0.4em;
+  font-size: 0.82em;
+}
+
+/* Hover pe rând */
+.reveal .slides section.m0-slide table tbody tr {
+  transition: background 0.18s ease, box-shadow 0.18s ease;
+}
+.reveal .slides section.m0-slide table tbody tr:hover td {
+  background: rgba(110, 190, 70, 0.12) !important;
 }
 
 /* Fragmente — accent */

@@ -149,28 +149,48 @@
   color: var(--srim-green);
 }
 
-/* Densitate tabele */
+/* Densitate tabele — em relativ la slide; echilibru lizibilitate / încadrare 1280×720 */
 .reveal .slides section.table-medium table {
-  font-size: 0.42em;
+  font-size: 0.52em;
+  line-height: 1.32;
 }
 
 .reveal .slides section.table-medium table th,
 .reveal .slides section.table-medium table td {
-  padding: 0.3em 0.45em;
+  padding: 0.32em 0.48em;
   vertical-align: top;
 }
 
 .reveal .slides section.table-heavy table {
-  font-size: 0.3em;
+  font-size: 0.38em;
+  line-height: 1.34;
 }
 
 .reveal .slides section.table-heavy table th,
 .reveal .slides section.table-heavy table td {
-  padding: 0.28em 0.4em;
+  padding: 0.3em 0.44em;
   vertical-align: top;
 }
 
 .reveal .slides section.table-heavy table th {
+  color: var(--srim-green);
+  border-bottom: 1px solid var(--srim-blue);
+  background: rgba(16, 75, 134, 0.25);
+}
+
+/* Tabel foarte mare (9×5) — un singur slide */
+.reveal .slides section.table-mega table {
+  font-size: 0.31em;
+  line-height: 1.3;
+}
+
+.reveal .slides section.table-mega table th,
+.reveal .slides section.table-mega table td {
+  padding: 0.28em 0.38em;
+  vertical-align: top;
+}
+
+.reveal .slides section.table-mega table th {
   color: var(--srim-green);
   border-bottom: 1px solid var(--srim-blue);
   background: rgba(16, 75, 134, 0.25);

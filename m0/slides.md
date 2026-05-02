@@ -174,28 +174,28 @@ Modulele sunt concepute pentru a fi parcurse **secvențial**, dezvoltând progre
 
 ---
 
-<!-- .slide: class="left m0-slide table-medium" -->
-## Tabelul 1 — Prezentarea generală a curriculumului (1/2)
+<!-- .slide: class="left m0-slide table-heavy table-num-first" -->
+## Tabelul 1 — Prezentarea generală a curriculumului
 
-| Nr. crt. | Modul |
-|----------|--------|
-| 1 | Modulul 1: Transformarea digitală a sănătății și a sistemului de sănătate în România |
-| 2 | Modulul 2: Predarea, învățarea și dezvoltarea profesională continuă |
-| 3 | Modulul 3: Etică, confidențialitate și cadrul de reglementare |
-| 4 | Modulul 4: Comunicare digitală, colaborare și participare |
-| 5 | Modulul 5: Traseul digital și terapeutic al pacientului |
-
----
-
-<!-- .slide: class="left m0-slide table-medium" -->
-## Tabelul 1 — Prezentarea generală a curriculumului (2/2)
-
-| Nr. crt. | Modul |
-|----------|--------|
-| 6 | Modulul 6: Identitate digitală, securitate și interoperabilitate |
-| 7 | Modulul 7: Date privind sănătatea, metode statistice și inteligență artificială |
-| 8 | Modulul 8: Soluționarea aplicată a problemelor din domeniul sănătății prin instrumente digitale |
-| 9 | Modulul 9: Tendințe și perspective viitoare în sănătatea digitală |
+<table>
+<thead>
+<tr>
+<th scope="col">Nr. crt.</th>
+<th scope="col">Modul</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Modulul 1: Transformarea digitală a sănătății și a sistemului de sănătate în România</td></tr>
+<tr><td>2</td><td>Modulul 2: Predarea, învățarea și dezvoltarea profesională continuă</td></tr>
+<tr><td>3</td><td>Modulul 3: Etică, confidențialitate și cadrul de reglementare</td></tr>
+<tr><td>4</td><td>Modulul 4: Comunicare digitală, colaborare și participare</td></tr>
+<tr><td>5</td><td>Modulul 5: Traseul digital și terapeutic al pacientului</td></tr>
+<tr><td>6</td><td>Modulul 6: Identitate digitală, securitate și interoperabilitate</td></tr>
+<tr><td>7</td><td>Modulul 7: Date privind sănătatea, metode statistice și inteligență artificială</td></tr>
+<tr><td>8</td><td>Modulul 8: Soluționarea aplicată a problemelor din domeniul sănătății prin instrumente digitale</td></tr>
+<tr><td>9</td><td>Modulul 9: Tendințe și perspective viitoare în sănătatea digitală</td></tr>
+</tbody>
+</table>
 
 ---
 
@@ -228,21 +228,13 @@ Două instrumente **gratuite** de autoevaluare, aliniate la **DigComp**, sunt di
 
 ---
 
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 2 — Instrumente (Europass)
+<!-- .slide: class="left m0-slide table-heavy table-link-col" -->
+## Tabelul 2 — Instrumente recomandate pentru autoevaluare
 
 | Instrument | Descriere | Caracteristici principale | Link |
 |------------|-----------|---------------------------|------|
-| **Europass Digital Skills Assessment** | Instrument oficial de autoevaluare al Comisiei Europene. Durată estimată: **15–20 de minute**. Generează un profil personalizat de competențe și o foaie de parcurs pentru învățare. | Gratuit; disponibil în limba română; aliniat la DigComp 2.2; disponibil în 24 de limbi ale UE; accesibil de pe dispozitive mobile. | europass.europa.eu |
-
----
-
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 2 — Instrumente (MyDigiSkills)
-
-| Instrument | Descriere | Caracteristici principale | Link |
-|------------|-----------|---------------------------|------|
-| **MyDigiSkills** | Instrument de autoreflecție aliniat la DigComp 2.1, dezvoltat de ALL DIGITAL / Centrul Comun de Cercetare al Comisiei Europene. Include **82** de întrebări organizate în cele cinci arii DigComp. Durată estimată: aproximativ **20 de minute**. | Gratuit; disponibil în limba română; aliniat la DigComp 2.1; licență CC; acoperă cunoștințe, abilități și atitudini. | mydigiskills.eu |
+| **Europass Digital Skills Assessment** | Instrument oficial de autoevaluare al Comisiei Europene. Durată estimată: **15–20 de minute**. Generează un profil personalizat de competențe și o foaie de parcurs pentru învățare. | Gratuit; disponibil în limba română; aliniat la DigComp 2.2; disponibil în 24 de limbi ale UE; accesibil de pe dispozitive mobile. | <a href="https://europass.europa.eu/" target="_blank" rel="noopener noreferrer">europass.europa.eu</a> |
+| **MyDigiSkills** | Instrument de autoreflecție aliniat la DigComp 2.1, dezvoltat de ALL DIGITAL / Centrul Comun de Cercetare al Comisiei Europene. Include **82** de întrebări organizate în cele cinci arii DigComp. Durată estimată: aproximativ **20 de minute**. | Gratuit; disponibil în limba română; aliniat la DigComp 2.1; licență CC; acoperă cunoștințe, abilități și atitudini. | <a href="https://mydigiskills.eu/" target="_blank" rel="noopener noreferrer">mydigiskills.eu</a> |
 
 ---
 
@@ -261,20 +253,12 @@ Două instrumente **gratuite** de autoevaluare, aliniate la **DigComp**, sunt di
 ---
 
 <!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 3 — Parcurs sub prag (1/2)
+## Tabelul 3 — Parcurs de formare (sub pragul minim)
 
 | Opțiune | Descriere | Cost | Context România |
 |---------|-----------|------|-----------------|
 | **Europass learning roadmap** | Foaie de parcurs personalizată cu resurse gratuite de învățare pentru fiecare lacună identificată, curatoriată de Platforma UE pentru competențe digitale și locuri de muncă. | Gratuit | Disponibil în limba română |
 | **ICDL România** | Certificare modulară structurată (ECDL România), activă din 2002. Recunoscută de Ministerul Educației. Permite selecția flexibilă a modulelor. | Contra cost | Implementare în România; livrare în limba română |
-
----
-
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 3 — Parcurs sub prag (2/2)
-
-| Opțiune | Descriere | Cost | Context România |
-|---------|-----------|------|-----------------|
 | **DIGCIT România** | Cursuri de alfabetizare digitală de bază pentru cetățeni, bazate pe DigComp. | Gratuit | Disponibil în limba română |
 | **EU Academy** | Cursuri care acoperă competențe digitale de la nivel de bază la intermediar, inclusiv securitate cibernetică și competențe digitale generale. | Gratuit | Disponibil în limba română |
 
@@ -356,37 +340,21 @@ Profesioniști a căror activitate principală implică **gestionarea serviciilo
 
 **Tabelul 4** (P1), **Tabelul 5** (P2), **Tabelul 6** (P3) și **Tabelul 7** (P4) din documentul sursă au **același conținut** (nivel, durată, modalitate de livrare pe modul).
 
-Următoarele slide-uri prezintă parcursul complet, **un singur exemplu** — valabil pentru toate profilurile în această etapă.
+Tabelul următor prezintă parcursul complet (**Tabele 4–7** — același conținut pentru P1–P4 în această etapă).
 
 ---
 
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Parcurs de învățare — module 1–3
+<!-- .slide: class="left m0-slide table-mega" -->
+## Tabele 4–7 — Parcurs de învățare (toate modulele)
 
 | Nr. | Modul | Nivel | Durată | Modalitate de livrare |
 |-----|--------|-------|--------|------------------------|
 | 1 | Modulul 1: Transformarea digitală a sănătății și a sistemului de sănătate în România | De bază, Intermediar | 3–6 ore | Online asincron, Online sincron, Față în față, Mixt |
 | 2 | Modulul 2: Predarea, învățarea și dezvoltarea profesională continuă | De bază, Intermediar | 2–4 ore | Online asincron, Online sincron, Față în față, Mixt |
 | 3 | Modulul 3: Etică, confidențialitate și cadrul de reglementare | De bază, Intermediar | 3–5 ore | Online asincron, Online sincron, Față în față, Mixt |
-
----
-
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Parcurs de învățare — module 4–6
-
-| Nr. | Modul | Nivel | Durată | Modalitate de livrare |
-|-----|--------|-------|--------|------------------------|
 | 4 | Modulul 4: Comunicare digitală, colaborare și participare | De bază, Intermediar | 2.5–4.5 ore | Online asincron, Online sincron, Față în față, Mixt, Simulare, La locul de muncă |
 | 5 | Modulul 5: Traseul digital și terapeutic al pacientului | De bază, Intermediar | 2–5 ore | Online asincron, Online sincron, Față în față, Mixt, Simulare, La locul de muncă |
 | 6 | Modulul 6: Identitate digitală, securitate și interoperabilitate | De bază, Intermediar | 2–4 ore | Față în față, Online asincron, Mixt |
-
----
-
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Parcurs de învățare — module 7–9
-
-| Nr. | Modul | Nivel | Durată | Modalitate de livrare |
-|-----|--------|-------|--------|------------------------|
 | 7 | Modulul 7: Date privind sănătatea, metode statistice și inteligență artificială | De bază, Intermediar | 2–4 ore | Orice (online asincron recomandat) |
 | 8 | Modulul 8: Soluționarea aplicată a problemelor din domeniul sănătății prin instrumente digitale | De bază, Intermediar | 2–6 ore | Online asincron, Online sincron, Față în față, Mixt, Simulare, La locul de muncă |
 | 9 | Modulul 9: Tendințe și perspective viitoare în sănătatea digitală | De bază, Intermediar | 3–5 ore | Online asincron, Mixt |
@@ -457,21 +425,13 @@ Faza 1 trebuie să stabilească un **nivel de referință**. Înainte de proiect
 ---
 
 <!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 8 — Faza 1 (1/2)
+## Tabelul 8 — Faza 1: Consolidarea fundamentelor (0–12 luni)
 
 | Recomandare | Responsabil(i) | Calendar | Indicator |
 |-------------|----------------|----------|-----------|
 | Implementarea curriculumului cu nouă module pentru toate cele patru profiluri profesionale, cu parcursuri clare de înscriere și coordonare instituțională la nivelul regiunilor de sănătate din România. | Autoritate guvernamentală; furnizori de servicii | 0–6 luni | Număr cursanți; rate finalizare la 6 luni |
 | Program „train-the-trainer” pentru dezvoltarea unei rețele distribuite de facilitatori. | Instituție academică; autoritate guvernamentală | 0–9 luni | Nr. formatori; distribuție; retenție |
 | Mecanism de guvernanță și asigurare a calității curriculumului. | Autoritate; instituție academică; organizație internațională | 0–6 luni | Structură formalizată; ciclu de revizuire |
-
----
-
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 8 — Faza 1 (2/2)
-
-| Recomandare | Responsabil(i) | Calendar | Indicator |
-|-------------|----------------|----------|-----------|
 | Sprijin pentru cursanții sub Nivelul 1 (resurse și autoevaluare). | Furnizori servicii; autoritate | 0–6 luni | % evaluați; utilizare resurse |
 | Evaluare națională de referință a competențelor digitale. | Autoritate; organizație; instituție academică | 3–9 luni | Date colectate; raport publicat |
 
@@ -498,21 +458,13 @@ După stabilirea unei baze comune, foaia de parcurs se **diferențiază în func
 ---
 
 <!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 9 — Faza 2 (1/2)
+## Tabelul 9 — Faza 2: Diferențiere și leadership (12–36 luni)
 
 | Recomandare | Responsabil(i) | Calendar | Indicator |
 |-------------|----------------|----------|-----------|
 | Dezvoltarea unor parcursuri avansate integrate în practică pentru P1 și P2, cu accent pe simulare și învățare la locul de muncă. | Instituție academică; furnizori servicii; organizații profesionale | 12–24 luni | Parcursuri lansate; cohortă pilot; progres documentat |
 | Dezvoltarea unui traseu tehnic pentru P3 (interoperabilitate, guvernanță, informatică medicală, date, management proiecte). | Instituție academică; autoritate guvernamentală; organizație internațională | 12–24 luni | Traseu lansat; ținte de înscriere atinse |
 | Dezvoltarea unui traseu strategic de alfabetizare digitală pentru P4 (guvernanță și inițiative la nivel de sistem). | Instituție academică; organizații profesionale; autoritate guvernamentală | 12–24 luni | Traseu lansat; rată participare management |
-
----
-
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 9 — Faza 2 (2/2)
-
-| Recomandare | Responsabil(i) | Calendar | Indicator |
-|-------------|----------------|----------|-----------|
 | Lansarea unui program transversal de leadership în sănătate digitală pentru toate profilurile. | Instituție academică; organizații profesionale; organizație internațională | 18–30 luni | Rate de finalizare; creștere încredere leadership |
 | Integrarea parcursurilor avansate în CPD și cadrele de revalidare profesională. | Organizații profesionale; autoritate guvernamentală | 24–36 luni | Recunoaștere CPD; integrare în revalidare |
 
@@ -539,21 +491,13 @@ Poate include: mecanism național de **acreditare**; **rețea de livrare** ancor
 ---
 
 <!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 10 — Faza 3 (1/2)
+## Tabelul 10 — Faza 3: Competențe avansate și capacitate sistemică (3–5 ani)
 
 | Recomandare | Responsabil(i) | Calendar | Indicator |
 |-------------|----------------|----------|-----------|
 | Integrarea formală a competențelor digitale în cerințele CPD și de revalidare pentru toate profilurile profesionale. | Organizații profesionale; autoritate guvernamentală | 36–60 luni | Competențele digitale incluse în CPD; % profesioniști participanți anual |
 | Dezvoltarea de programe postuniversitare acreditate în informatică medicală, știința datelor, IA și securitate cibernetică pentru P3. | Instituții academice; organizații internaționale; autoritate guvernamentală | 36–48 luni | Programe disponibile; înscrieri; aliniere la cadre europene |
 | Dezvoltarea unui mecanism național de acreditare a competențelor în sănătate digitală. | Autoritate guvernamentală; organizații profesionale; instituții academice | 36–60 luni | Cadru publicat; pilot implementat; aliniere europeană |
-
----
-
-<!-- .slide: class="left m0-slide table-heavy" -->
-## Tabelul 10 — Faza 3 (2/2)
-
-| Recomandare | Responsabil(i) | Calendar | Indicator |
-|-------------|----------------|----------|-----------|
 | Construirea unei rețele naționale sustenabile de livrare a educației în sănătate digitală. | Autoritate guvernamentală; instituții academice; furnizori servicii | 48–60 luni | Rețea operațională; responsabilitate instituțională |
 | Realizarea unei a doua evaluări naționale a competențelor digitale pentru a măsura progresul și a ajusta prioritățile. | Autoritate guvernamentală; organizații internaționale | De la luna 24, apoi la fiecare 2 ani | Evaluări realizate; rezultate publicate; progres documentat |
 
