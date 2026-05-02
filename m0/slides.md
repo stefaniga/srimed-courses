@@ -53,6 +53,21 @@ Livrare **flexibilă**, adaptată diversității contextelor instituționale și
 
 ---
 
+<!-- .slide: class="left m0-slide m0-slide--slideshow" -->
+## Ilustrații — curriculum și competențe digitale
+
+<div class="m0-slideshow" role="region" aria-roledescription="carousel" aria-label="Galerie ilustrații curs">
+<div class="m0-slideshow__slide"><img src="assets/gallery/01.jpg" alt="Ilustrație 1 — context curriculum sănătate digitală" width="1600" height="900" loading="lazy" decoding="async" /></div>
+<div class="m0-slideshow__slide"><img src="assets/gallery/02.jpg" alt="Ilustrație 2 — competențe și module" width="1600" height="900" loading="lazy" decoding="async" /></div>
+<div class="m0-slideshow__slide"><img src="assets/gallery/03.jpg" alt="Ilustrație 3 — profiluri profesionale și parcurs" width="1600" height="900" loading="lazy" decoding="async" /></div>
+<div class="m0-slideshow__slide"><img src="assets/gallery/04.jpg" alt="Ilustrație 4 — livrare și formare" width="1600" height="900" loading="lazy" decoding="async" /></div>
+<div class="m0-slideshow__slide"><img src="assets/gallery/05.jpg" alt="Ilustrație 5 — ecosistem digital sănătate" width="1600" height="900" loading="lazy" decoding="async" /></div>
+</div>
+
+<p class="m0-slideshow__hint">Diapozitive cu alternanță automată · continuare: tastă sau săgeată</p>
+
+---
+
 <!-- .slide: class="left m0-slide" -->
 ## Cerință prealabilă — Layer 1 (DigComp 3.0)
 
