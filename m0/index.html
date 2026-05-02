@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@5.1.0/dist/reveal.css" />
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@5.1.0/dist/theme/black.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/m0-enhancements.css" />
   </head>
   <body>
     <div class="reveal">
@@ -36,12 +37,16 @@
       Reveal.initialize({
         hash: true,
         slideNumber: "c/t",
-        transition: "slide",
+        transition: "convex",
+        backgroundTransition: "fade",
         width: 1280,
         height: 720,
         margin: 0.04,
         minScale: 0.15,
         maxScale: 2,
+        autoAnimate: true,
+        autoAnimateEasing: "ease-out",
+        autoAnimateDuration: 0.55,
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
         markdown: {
           smartypants: true,

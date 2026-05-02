@@ -1,0 +1,263 @@
+/* M0 — iconițe, diagrame, animații subtile, carduri */
+
+.reveal .slides section.m0-slide {
+  --m0-accent: var(--srim-green);
+}
+
+/* Intrare în trepte — conținutul slide-ului */
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > * {
+  animation: m0-fade-up 0.48s ease-out both;
+}
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > *:nth-child(1) {
+  animation-delay: 0.03s;
+}
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > *:nth-child(2) {
+  animation-delay: 0.08s;
+}
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > *:nth-child(3) {
+  animation-delay: 0.13s;
+}
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > *:nth-child(4) {
+  animation-delay: 0.18s;
+}
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > *:nth-child(5) {
+  animation-delay: 0.23s;
+}
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > *:nth-child(6) {
+  animation-delay: 0.28s;
+}
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > *:nth-child(7) {
+  animation-delay: 0.33s;
+}
+.reveal .slides section.m0-slide.present:not(.m0-slide--cover) > *:nth-child(8) {
+  animation-delay: 0.38s;
+}
+.reveal .slides section.m0-slide--cover.present > * {
+  animation: m0-fade-up 0.65s ease-out both;
+}
+
+@keyframes m0-fade-up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Copertă modul */
+.reveal .slides section.m0-slide--cover {
+  padding-top: 4.5rem;
+}
+.reveal .slides section.m0-slide--cover h1,
+.reveal .slides section.m0-slide--cover h2 {
+  font-size: 1.48em;
+  border: none;
+  box-shadow: none;
+  padding-bottom: 0;
+  margin-bottom: 0.25em;
+  background: linear-gradient(105deg, #fff 0%, #b8e0ff 45%, var(--srim-green) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.15;
+}
+.reveal .slides section.m0-slide--cover h2::before {
+  display: none;
+}
+.reveal .slides section.m0-slide--cover h3 {
+  font-size: 0.95em;
+  border: none;
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 600;
+  margin: 0 0 0.65em;
+}
+.reveal .slides section.m0-slide--cover h3::before {
+  display: none;
+}
+.reveal .slides section.m0-slide--cover .m0-cover__bar {
+  width: 4rem;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--srim-green), var(--srim-blue));
+  margin: 0 0 1rem;
+}
+.reveal .slides section.m0-slide--cover p {
+  font-size: 0.88em;
+  opacity: 0.88;
+  max-width: 36em;
+}
+
+/* Titlu secțiune cu icon */
+.reveal .slides section.m0-slide:not(.m0-slide--cover) h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  flex-wrap: wrap;
+  border-bottom-width: 3px;
+  border-image: linear-gradient(90deg, var(--srim-blue), var(--srim-green)) 1;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  padding-bottom: 0.4em;
+}
+
+.reveal .slides section.m0-slide:not(.m0-slide--cover) h2::before {
+  content: "";
+  width: 0.38em;
+  min-height: 1.05em;
+  border-radius: 5px;
+  background: linear-gradient(180deg, var(--srim-green) 0%, var(--srim-blue) 100%);
+  flex-shrink: 0;
+  box-shadow: 0 0 12px rgba(110, 190, 70, 0.35);
+}
+
+/* Badge fază — primul element din h2 după bară */
+.reveal .slides section.m0-phase h2 .m0-phase-badge {
+  order: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4em;
+  padding: 0.12em 0.4em;
+  border-radius: 8px;
+  font-size: 0.58em;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #0a1a2e;
+  margin-right: 0.15em;
+}
+.reveal .slides section.m0-phase h2::before {
+  order: -1;
+}
+.reveal .slides section.m0-phase h2 .m0-h2-rest {
+  flex: 1;
+  min-width: 12em;
+  line-height: 1.2;
+}
+.reveal .slides section.m0-phase--1 .m0-phase-badge {
+  background: linear-gradient(135deg, #7dd87a, var(--srim-green));
+}
+.reveal .slides section.m0-phase--2 .m0-phase-badge {
+  background: linear-gradient(135deg, #5ba3e8, var(--srim-blue-alt));
+  color: #fff;
+}
+.reveal .slides section.m0-phase--3 .m0-phase-badge {
+  background: linear-gradient(135deg, #c9a227, #f0d060);
+  color: #1a1408;
+}
+
+/* Carduri puncte cheie */
+.reveal .m0-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.55em;
+  margin: 0.6em 0 0;
+  font-size: 0.82em;
+}
+.reveal .m0-cards .m0-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 0.55em 0.65em;
+  line-height: 1.35;
+}
+.reveal .m0-cards .m0-card strong {
+  display: block;
+  margin-bottom: 0.2em;
+  font-size: 0.95em;
+}
+
+/* Diagrame SVG */
+.reveal .m0-diagram {
+  margin: 0.5em 0 0.85em;
+  max-width: 100%;
+}
+.reveal .m0-diagram svg {
+  width: 100%;
+  max-height: 220px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.2));
+}
+
+.reveal .m0-diagram--wide svg {
+  max-height: 260px;
+}
+
+.reveal .m0-phase-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1rem;
+  margin-top: 0.5em;
+  font-size: 0.72em;
+  opacity: 0.9;
+}
+.reveal .m0-phase-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+}
+.reveal .m0-phase-legend i {
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 3px;
+  display: inline-block;
+}
+.reveal .m0-phase-legend .c1 {
+  background: var(--srim-green);
+}
+.reveal .m0-phase-legend .c2 {
+  background: var(--srim-blue-alt);
+}
+.reveal .m0-phase-legend .c3 {
+  background: #e8c547;
+}
+
+/* Grid profiluri */
+.reveal .m0-profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.45em;
+  margin: 0.55em 0;
+  font-size: 0.68em;
+  max-width: 520px;
+}
+.reveal .m0-profile-grid div {
+  background: rgba(16, 75, 134, 0.35);
+  border: 1px solid rgba(110, 190, 70, 0.25);
+  border-radius: 12px;
+  padding: 0.5em 0.55em;
+  line-height: 1.3;
+}
+.reveal .m0-profile-grid strong {
+  display: block;
+  color: var(--srim-green);
+  margin-bottom: 0.15em;
+  font-size: 1.05em;
+}
+
+/* Tabele — fără animație pe intrare (stabilitate) */
+.reveal .slides section.table-heavy.present > *,
+.reveal .slides section.table-medium.present > * {
+  animation: none;
+}
+
+/* Tabele — hover subtil pe rânduri (unde e loc) */
+.reveal .slides section.m0-slide table tbody tr {
+  transition: background 0.15s ease;
+}
+.reveal .slides section.m0-slide table tbody tr:hover {
+  background: rgba(110, 190, 70, 0.08);
+}
+
+/* Fragmente — accent */
+.reveal .slides section .fragment.highlight-green.visible:not(.current-fragment) {
+  opacity: 0.55;
+}
+.reveal .slides section .fragment.highlight-green.current-fragment {
+  color: var(--srim-green);
+}
